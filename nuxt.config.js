@@ -104,6 +104,10 @@ export default {
     'nuxt-gsap-module',
   ],
 
+  sitemap: {
+    hostname: process.env.SITEMAP_HOSTNAME,
+  },
+
   gsap: {
     extraPlugins: {
       scrollTo: true,
