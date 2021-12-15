@@ -1,0 +1,23 @@
+*{
+  font-family: sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#185e8c, #e14b19);
+  border-radius: 2px;
+}
+.cMfTechSecondary{
+   color: #e14b19;
+ }
+.primaryColor{
+  color: #185e8c;
+}
+.fs20px{
+  font-size: 20px;
+}
