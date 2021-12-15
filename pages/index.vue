@@ -71,7 +71,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `/static/icon_mf_technologies.png`,
+          content: `/icon_mf_technologies.png`,
         },
         {
           hid: 'og:description',
