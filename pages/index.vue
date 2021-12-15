@@ -73,6 +73,8 @@ export default {
           property: 'og:image',
           content: '/icon_mf_technologies.png',
         },
+        { property: "og:image:width", content: "740" },
+        { property: "og:image:height", content: "300" },
         {
           hid: 'og:description',
           property: 'og:description',

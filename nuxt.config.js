@@ -35,11 +35,6 @@ export default {
         href: '/favicon-32x32.png',
       },
       {
-        rel: 'apple-touch-icon',
-        sizes: '180x180',
-        href: '/apple-touch-icon.png',
-      },
-      {
         rel: 'mask-icon',
         href: '/safari-pinned-tab.svg',
         color: '#581bdf',
@@ -123,6 +118,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
