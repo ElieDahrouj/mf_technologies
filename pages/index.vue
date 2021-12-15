@@ -61,9 +61,7 @@ export default {
         {
           hid: 'Accueil MF Technologies',
           name: 'MF Technologies',
-          content: '    MF-TECHNOLOGIES est un acteur de la transformation digitale et numérique basée à Paris travaillant avec une équipe d\'ingénieurs et de techniciens de haut niveau et à forte valeur\n' +
-            '            technologique.Notre proximité, notre agilité et notre diversité sont au service de la performance de nos clients.\n' +
-            '            Activateur de talents, notre objectif est de faire la différence grâce à une stratégie d\'entreprise positive, inclusive et intersectionelle.\n'
+          content: 'MF-TECHNOLOGIES est un acteur de la transformation digitale et numérique basée à Paris travaillant avec une équipe d\'ingénieurs et de techniciens de haut niveau et à forte valeur\n technologique.Notre proximité, notre agilité et notre diversité sont au service de la performance de nos clientsActivateur de talents, notre objectif est de faire la différence grâce à une stratégie d\'entreprise positive, inclusive et intersectionelle.'
         }
       ]
     }
@@ -85,7 +83,7 @@ export default {
       stagger:{each: 0.4},
       scrollTrigger: {
         trigger:".wMfTech",
-        start:'top+=95 50%',
+        start:'top+=10 50%',
         end:'bottom 55%',
       }
     })

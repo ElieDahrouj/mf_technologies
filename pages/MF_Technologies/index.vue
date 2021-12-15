@@ -69,9 +69,6 @@ export default {
 .content{
   width: 650px;
 }
-.z-1{
-  z-index: -1;
-}
 @media all and (max-width: 426px){
   .content{
     width: 100%;

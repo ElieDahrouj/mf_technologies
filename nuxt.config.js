@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  mode: 'universal',
   ssr: false,
   head: {
     title: 'mf_technologies',
