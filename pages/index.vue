@@ -44,7 +44,7 @@
 
     <footer class="bgFooter p-5 text-white">
       <div class="w85 m-auto">
-        Copyright © 2021 - All Rights Reserved - MF TECHNOLOGIES
+        Copyright © 2021 - All Rights Reserved - MF Technologies
       </div>
     </footer>
   </div>
@@ -141,7 +141,7 @@ export default {
   font-size: 20px;
 }
 .bgFooter{
-  background-color: #185e8c;
+  background-color: #4b565a;
 }
 .mh360px{
   min-height: 630px;
