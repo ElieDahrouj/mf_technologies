@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   mode: 'universal',
-  ssr: true,
+  ssr: false,
   head: {
     htmlAttrs: {
       lang: 'fr'

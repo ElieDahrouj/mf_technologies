@@ -66,7 +66,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: "MF Technologies",
+          content: 'MF Technologies',
         },
         {
           hid: 'og:image',
@@ -76,7 +76,7 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: "MF-TECHNOLOGIES est un acteur de la transformation digitale et numérique basée à Paris travaillant avec une équipe d'ingénieurs et de techniciens de haut niveau et à forte valeur technologique.",
+          content:'MF-TECHNOLOGIES est un acteur de la transformation digitale et numérique basée à Paris travaillant avec une équipe d\'ingénieurs et de techniciens de haut niveau et à forte valeur technologique.'
         }
       ],
     }
