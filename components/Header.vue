@@ -9,7 +9,7 @@
         <li><img class="w300px" src="../assets/pictures/logo-mf-consulting.svg" alt="logo MF Consulting"></li>
         <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/">Home</nuxt-link></li>
         <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/MF_Technologies">La Tribu</nuxt-link></li>
-        <li class="mx8px animationLiMobile"><a class="linkNavBar font-bold fs20px" rel="preload" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
+        <li class="mx8px animationLiMobile"><a class="linkNavBar font-bold fs20px" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
         <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/contact">Contact</nuxt-link></li>
       </ul>
     </nav>
@@ -30,7 +30,7 @@
           <ul class="flex fs20px">
             <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/">Home</nuxt-link></li>
             <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/MF_Technologies">La Tribu</nuxt-link></li>
-            <li class="mx8px animationLi"><a class="linkNavBar font-bold" rel="preload" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
+            <li class="mx8px animationLi"><a class="linkNavBar font-bold" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
             <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/contact">Contact</nuxt-link></li>
           </ul>
         </nav>

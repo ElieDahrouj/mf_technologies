@@ -8,8 +8,8 @@
     </section>
 
     <aside class="wFrame m-auto flex justify-center flex-col items-center mt-2">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.224260262666!2d2.324425715854362!3d48.89206310628887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e549e95271b%3A0x12f33a02d1c9ea20!2s192%20Rue%20Legendre%2C%2075017%20Paris!5e0!3m2!1sfr!2sfr!4v1639472392668!5m2!1sfr!2sfr"
-              width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+      <iframe title="Localisation MF Technologies" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.224260262666!2d2.324425715854362!3d48.89206310628887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e549e95271b%3A0x12f33a02d1c9ea20!2s192%20Rue%20Legendre%2C%2075017%20Paris!5e0!3m2!1sfr!2sfr!4v1639472392668!5m2!1sfr!2sfr"
+              width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" alt="Localisation MF Technologies">
       </iframe>
       <a rel="referrer" href="mailto:abc@example.com?subject = Envoie de CV &body = Voici ma candidature. Je reste à disposition pour toutes informations complémentaires" class="btn btn-sm animated-button victoria-one"><b>Nous contactez</b> <i class="fas fa-long-arrow-alt-right"></i></a>
     </aside>
@@ -20,6 +20,28 @@
 export default {
   name:'contact',
   components:true,
+  head () {
+    return {
+      title: "Contact MF Technologies",
+      meta: [
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'MF Technologies',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '/icon_mf_technologies.png',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:'Page contact de MF-Technologies afin de communiquer avec notre RH'
+        }
+      ],
+    }
+  },
 }
 </script>
 
