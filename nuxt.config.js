@@ -17,6 +17,21 @@ export default {
         name: 'theme-color',
         content: '#ffffff',
       },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'MF Technologies',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/icon_mf_technologies.png',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:'MF-Technologies est un acteur de la transformation digitale et numérique basée à Paris travaillant avec une équipe d\'ingénieurs et de techniciens de haut niveau'
+      }
     ],
     link: [
       { rel: 'icon', type:'image/png', href: '/favicon.ico' },

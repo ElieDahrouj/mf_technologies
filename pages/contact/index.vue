@@ -28,21 +28,6 @@ export default {
           hid: 'description',
           name: 'description',
           content: "Localisation de MF-Technologies basée à Paris et possibilité de nous contactez par mail en cliquant sur le bouton situé sur la page",
-        },
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: 'MF Technologies',
-        },
-        {
-          hid: 'og:image',
-          property: 'og:image',
-          content: '/icon_mf_technologies.png',
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content:'Page contact de MF-Technologies afin de communiquer avec notre RH'
         }
       ],
     }
