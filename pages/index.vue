@@ -66,6 +66,14 @@ export default {
       ],
     }
   },
+  jsonld() {
+    return {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://mf-technologies.herokuapp.com",
+      "logo": "../static/icon_mf_technologies.png"
+    }
+  },
   mounted() {
     this.$gsap.to('.convictions',{
       autoAlpha:1,
