@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header/>
     <video class="fixed top-0 z-1 right-0 bottom-0" src="../assets/videos/trailer_mf_technologies.mp4" autoplay loop muted preload="auto"></video>
     <div class="minHh"></div>
 
@@ -53,7 +52,6 @@
 <script>
 export default {
   name: "home",
-  components:true,
   head () {
     return {
       title: "MF Technologies",

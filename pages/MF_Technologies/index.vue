@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header/>
     <section class="mfSection flex-wrap flex justify-around items-center m-auto my-7">
       <div class="content">
         <h1 class="cMfTechSecondary fs20px">
@@ -57,8 +56,7 @@
 
 <script>
 export default {
-  name:'MF_Technologies',
-  components:true
+  name:'MF_Technologies'
 }
 </script>
 

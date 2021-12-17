@@ -1,6 +1,5 @@
 <template>
   <div class="min-h-screen">
-    <Header/>
     <section class="mt-5">
       <h1 class="text-center text-4xl blueMf tracking-widest">Merci de votre intérêt</h1>
       <h2 class="text-center font-bold my-3 tracking-widest">MF-Technologies se situe au</h2>
@@ -19,7 +18,6 @@
 <script>
 export default {
   name:'contact',
-  components:true,
   head () {
     return {
       title: "Contact MF Technologies",
