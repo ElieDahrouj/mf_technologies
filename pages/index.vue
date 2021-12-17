@@ -69,7 +69,8 @@ export default {
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "https://mf-technologies.herokuapp.com",
-      "logo": "../static/icon_mf_technologies.png"
+      "logo": "../static/icon_mf_technologies.png",
+      "keywords":'MF Technologies, acteur de la transformation digitale et numérique, ingénieurs, réseaux'
     }
   },
   mounted() {
