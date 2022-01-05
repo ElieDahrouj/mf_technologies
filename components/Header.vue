@@ -115,10 +115,7 @@ export default {
   .navList{
     display: none;
   }
-  .bgWhiteOpacity{
-    justify-content: space-between;
-  }
-  .bgWhiteOpacity .w85{
+  .stateHeader .w85{
     width: 100%;
   }
   .mx8px{
