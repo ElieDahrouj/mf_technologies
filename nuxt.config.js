@@ -9,7 +9,6 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'google-site-verification', content: 'X9WmybXNQYmJlZM_nX3HCrGGMO-zZQp_UeIyPVK-b1Q' },
       {
         name: 'msapplication-TileColor',
         content: '#ffffff',
