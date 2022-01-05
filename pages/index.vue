@@ -69,7 +69,7 @@ export default {
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "https://mf-technologies.herokuapp.com",
-      "logo": "../static/icon_mf_technologies.png",
+      "logo": "/icon_mf_technologies.png",
     }
   },
   mounted() {
