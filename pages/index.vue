@@ -1,6 +1,6 @@
 <template>
   <div>
-    <video class="fixed top-0 z-1 right-0 bottom-0" src="../assets/videos/trailer_mf_technologies.mp4" autoplay loop muted preload="auto"></video>
+    <video class="fixed top-0 z-1 right-0 bottom-0 min-w-full mt-14" src="../assets/videos/trailer_mf_technologies.mp4" autoplay loop muted preload="auto"></video>
     <div class="minHh"></div>
 
     <section class="flex flex-wrap explications overflow-hidden">
@@ -70,7 +70,6 @@ export default {
       "@type": "Organization",
       "url": "https://mf-technologies.herokuapp.com",
       "logo": "../static/icon_mf_technologies.png",
-      "keywords":'MF Technologies, acteur de la transformation digitale et numérique, ingénieurs, réseaux'
     }
   },
   mounted() {
@@ -128,6 +127,7 @@ export default {
 }
 .bgRight{
   background: url("../assets/pictures/sculpture.png")center no-repeat;
+  background-size: cover;
 }
 .fs20px{
   font-size: 20px;

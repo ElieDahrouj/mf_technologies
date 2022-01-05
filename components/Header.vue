@@ -7,14 +7,14 @@
 
       <ul class="flex flex-col justify-evenly items-center min-h-screen">
         <li><img class="w300px" src="../assets/pictures/logo-mf-consulting.svg" alt="logo MF Consulting"></li>
-        <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/">Home</nuxt-link></li>
-        <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/MF_Technologies">La Tribu</nuxt-link></li>
-        <li class="mx8px animationLiMobile"><a class="linkNavBar font-bold fs20px" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
-        <li class="mx8px animationLiMobile"><nuxt-link class="linkNavBar font-bold fs20px" to="/contact">Contact</nuxt-link></li>
+        <li class="mx8px" @click="switchStateScreenMobile(false)"><nuxt-link class="linkNavBar font-bold fs20px" to="/">Home</nuxt-link></li>
+        <li class="mx8px" @click="switchStateScreenMobile(false)"><nuxt-link class="linkNavBar font-bold fs20px" to="/MF_Technologies">La Tribu</nuxt-link></li>
+        <li class="mx8px" @click="switchStateScreenMobile(false)"><a class="linkNavBar font-bold fs20px" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
+        <li class="mx8px" @click="switchStateScreenMobile(false)"><nuxt-link class="linkNavBar font-bold fs20px" to="/contact">Contact</nuxt-link></li>
       </ul>
     </nav>
 
-    <header class="w-full p8px stateHeader bgWhiteOpacity">
+    <header class="w-full p8px stateHeader">
       <div class="flex justify-between items-center m-auto w85">
         <div class="w200px">
           <nuxt-link to="/">
@@ -28,10 +28,10 @@
 
         <nav class="navList">
           <ul class="flex fs20px">
-            <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/">Home</nuxt-link></li>
-            <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/MF_Technologies">La Tribu</nuxt-link></li>
-            <li class="mx8px animationLi"><a class="linkNavBar font-bold" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
-            <li class="mx8px animationLi"><nuxt-link class="linkNavBar font-bold" to="/contact">Contact</nuxt-link></li>
+            <li class="mx8px"><nuxt-link class="linkNavBar font-bold" to="/">Home</nuxt-link></li>
+            <li class="mx8px"><nuxt-link class="linkNavBar font-bold" to="/MF_Technologies">La Tribu</nuxt-link></li>
+            <li class="mx8px"><a class="linkNavBar font-bold" rel="noreferrer" target="_blank" href="https://ui.boondmanager.com/login">Extranet</a></li>
+            <li class="mx8px"><nuxt-link class="linkNavBar font-bold" to="/contact">Contact</nuxt-link></li>
           </ul>
         </nav>
       </div>
@@ -92,9 +92,6 @@ export default {
 .linkNavBar:hover{
   color: #e14b19;
 }
-.bgWhiteOpacity{
-  background-color: rgba(255, 255, 255, .7);
-}
 .navBarMobile{
   display: none;
 }
@@ -105,17 +102,11 @@ export default {
   right: 0;
   color: red;
 }
-
 .p8px{
   padding: 8px;
 }
 .mx8px{
   margin: 0 8px;
-}
-.animationLi{
-  opacity: 0;
-  visibility: hidden;
-  transform:translateX(100%);
 }
 @media all and (max-width: 769px) {
   .navBarMobile{

@@ -9,6 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'google-site-verification', content: 'X9WmybXNQYmJlZM_nX3HCrGGMO-zZQp_UeIyPVK-b1Q' },
       {
         name: 'msapplication-TileColor',
         content: '#ffffff',
@@ -61,42 +62,32 @@ export default {
   },
 
   transition: {
-    name: "scale",
-    mode: "out-in",
+    name: 'page',
+    mode: 'out-in',
     css: false,
 
     beforeEnter(el) {
       this.$gsap.set(el, {
-        opacity: 0,
-        scale: 0,
-      });
+        opacity: 0
+      })
     },
 
     enter(el, done) {
       this.$gsap.to(el, {
         opacity: 1,
-        scale: 1,
-        duration: 1,
-        ease: "power2.inOut",
-        onComplete :(() =>{
-          this.$gsap.timeline()
-            .to('.animationLi',{
-              autoAlpha:1,
-              x:0,
-              stagger: {each:0.4}
-            })
-        })
-      });
+        duration: 0.5,
+        ease: 'power2.inOut',
+        onComplete: done
+      })
     },
 
     leave(el, done) {
       this.$gsap.to(el, {
         opacity: 0,
-        scale: 0,
-        duration: 1,
-        ease: "power2.inOut",
-        onComplete: done,
-      });
+        duration: 0.5,
+        ease: 'power2.inOut',
+        onComplete: done
+      })
     }
   },
 
