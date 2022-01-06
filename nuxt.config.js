@@ -38,6 +38,11 @@ export default {
       { rel: 'icon', type:'image/png', href: '/favicon.ico' },
       { rel:"stylesheet", href:"https://use.fontawesome.com/releases/v5.15.4/css/all.css",integrity:"sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm", crossOrigin:"anonymous"},
       {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: 'https://mf-technologies.herokuapp.com/',
+      },
+      {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
