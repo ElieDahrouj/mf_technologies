@@ -68,7 +68,7 @@ export default {
     return [
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "LocalBusiness",
         "logo": "/icon_mf_technologies.png",
         "image": [
           "/icon_mf_technologies.png",
