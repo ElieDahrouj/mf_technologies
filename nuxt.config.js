@@ -116,11 +116,6 @@ export default {
     'nuxt-gsap-module',
   ],
 
-  sitemap: {
-    hostname: 'https://mf-technologies.herokuapp.com/',
-    gzip: true
-  },
-
   gsap: {
     extraPlugins: {
       scrollTo: true,
@@ -135,8 +130,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
