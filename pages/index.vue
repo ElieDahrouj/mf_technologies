@@ -98,7 +98,6 @@ export default {
         "@type": "Organization",
         "logo": "/icon_mf_technologies.png",
         "url": "https://mf-technologies.herokuapp.com",
-        "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"],
       }
     ]
   },
