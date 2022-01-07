@@ -91,9 +91,13 @@ export default {
         "url": "https://mf-technologies.herokuapp.com",
         "telephone": "0676429697",
         "openingHours": "Mo,Tu,We,Th,Fr 09:30-19:00",
+        "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"],
       },
       {
-        "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"],
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "logo": "/icon_mf_technologies.png",
+        "url": "https://mf-technologies.herokuapp.com"
       }
     ]
   },
