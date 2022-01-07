@@ -90,50 +90,7 @@ export default {
         },
         "url": "https://mf-technologies.herokuapp.com",
         "telephone": "0676429697",
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes":  "17:00:00",
-            "dayOfWeek": "https://schema.org/Sunday",
-            "opens":  "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes": "17:00:00" ,
-            "dayOfWeek": "https://schema.org/Saturday",
-            "opens": "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes":  "17:00:00",
-            "dayOfWeek": "https://schema.org/Thursday",
-            "opens": "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes": "17:00:00",
-            "dayOfWeek": "https://schema.org/Tuesday",
-            "opens": "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes": "17:00:00",
-            "dayOfWeek":  "https://schema.org/Friday",
-            "opens": "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes": "17:00:00",
-            "dayOfWeek": "https://schema.org/Monday",
-            "opens": "09:00:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "closes": "17:00:00",
-            "dayOfWeek":  "https://schema.org/Wednesday",
-            "opens": "09:00:00"
-          }
-        ]
+        "openingHours": "Mo,Tu,We,Th,Fr 09:30-19:00",
       },
       {
         "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"],
