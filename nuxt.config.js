@@ -137,10 +137,10 @@ export default {
   sitemap: {
     hostname:'https://mf-technologies.herokuapp.com',
     gzip: true,
-    routes:[
-      '/contact',
-      '/MF_Technologies'
-    ]
+  },
+
+  robots: {
+    Sitemap: "https://mf-technologies.herokuapp.com/sitemap.xml"
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
