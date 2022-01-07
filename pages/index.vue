@@ -68,9 +68,47 @@ export default {
     return {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "url": "https://mf-technologies.herokuapp.com",
       "logo": "/icon_mf_technologies.png",
-      "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"]
+      "keywords":["MF Technologies", "Paris 17", "acteur de la transformation"],
+      "image": [
+      "/icon_mf_technologies.png",
+      ],
+      "name": "MF Technologies",
+      "address": {
+      "@type": "PostalAddress",
+        "streetAddress": "192 rue Legendre",
+        "addressLocality": "Paris",
+        "addressRegion": "Iles-de-france",
+        "postalCode": "75017",
+        "addressCountry": "FR"
+      },
+      "review": {
+        "author": {
+          "@type": "Person",
+            "name": "Mickael"
+        }
+     },
+      "geo": {
+      "@type": "GeoCoordinates",
+        "latitude": 48.89220309023892,
+        "longitude": 2.3265837490194907
+    },
+      "url": "https://mf-technologies.herokuapp.com",
+      "telephone": "0676429697",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "21:00"
+        }
+      ]
     }
   },
   mounted() {
