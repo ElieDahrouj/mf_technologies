@@ -104,6 +104,7 @@ export default {
 }
 .p8px{
   padding: 8px;
+  background-color: white;
 }
 .mx8px{
   margin: 0 8px;
