@@ -71,8 +71,8 @@ export default {
       "name": "MF Technologies",
       "logo": "/icon_mf_technologies.png",
       "image": "/icon_mf_technologies.png",
-      "email": "elie.d1094@gmail.com",
-      "telephone": "+33 6 76 42 96 97",
+      "email": "m.doukiakaka@mfc-groupe.com",
+      "telephone": "+33 7 62 96 54 54",
       "url": "https://mf-technologies.herokuapp.com",
       "address": {
         "@type": "PostalAddress",
