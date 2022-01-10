@@ -65,41 +65,24 @@ export default {
     }
   },
   jsonld() {
-    return [
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "logo": "/icon_mf_technologies.png",
-        "image": [
-          "/icon_mf_technologies.png",
-        ],
-        "name": "MF Technologies",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "192 rue Legendre",
-          "addressLocality": "Paris",
-          "addressRegion": "Ile-de-france",
-          "postalCode": "75017",
-          "addressCountry": "FR"
-        },
-        "review": {
-          "author": {
-            "@type": "Person",
-            "name": "Mickael"
-          }
-        },
-        "url": "https://mf-technologies.herokuapp.com",
-        "telephone": "0676429697",
-        "openingHours": "Mo,Tu,We,Th,Fr 09:30-19:00",
-        "priceRange":"€€€",
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "logo": "/icon_mf_technologies.png",
-        "url": "https://mf-technologies.herokuapp.com",
+    return {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MF Technologies",
+      "logo": "/icon_mf_technologies.png",
+      "image": "/icon_mf_technologies.png",
+      "email": "elie.d1094@gmail.com",
+      "telephone": "+33 6 76 42 96 97",
+      "url": "https://mf-technologies.herokuapp.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "192 Rue Legendre",
+        "addressLocality": "Paris",
+        "addressRegion": "Île-de-France",
+        "postalCode": "75017",
+        "addressCountry": "FR"
       }
-    ]
+    }
   },
   mounted() {
     this.$gsap.to('.convictions',{
